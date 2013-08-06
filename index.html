@@ -204,9 +204,14 @@
             </div>
             <div class="row-fluid">
               <div class="span6 offset3 order">
-                <!-- Standard Bootstrap button. -->
-                <!-- http://twitter.github.io/bootstrap/base-css.html#buttons -->
-                <button class="btn btn-success btn-large">Preorder</button>
+                <!-- Coinbase button. -->
+                <!-- https://coinbase.com/docs/merchant_tools/payment_buttons -->
+                <a class="coinbase-button" 
+                   data-button-style="custom_large"
+                   data-button-text="Preorder with Bitcoin"
+                   data-code="05c28883c9d3eb40ddbf9065e4d7ed9b" 
+                   href="https://coinbase.com/checkouts/05c28883c9d3eb40ddbf9065e4d7ed9b">Preorder with Bitcoin</a>
+                <script src="https://coinbase.com/assets/button.js" type="text/javascript"></script>
               </div>
             </div>
             <div class="row-fluid">
